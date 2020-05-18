@@ -1,19 +1,35 @@
 body
 {
-    color:#333;
+ color: black;
  text-align: center;
- font-family: Georgia;
+ font-family: arial;
  font-size: 16px;
  margin: 0;
  padding: 0;
 }
+#cabecera
+{
+    background: blue;
+    
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.8em;
+}
+#cabecera #tagline
+{
+    padding: 0 1cm 0 1cm;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container
 {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
-    border: 1px solid darkkhaki;
+    border: 1px solid black;
     margin: 0 auto;
+    background: coral;
 }
 #container h1
 {
